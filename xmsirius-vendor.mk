@@ -183,7 +183,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     libgf_ca \
     libgf_hal \
-    libqcbor \
     libsensorcal \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
