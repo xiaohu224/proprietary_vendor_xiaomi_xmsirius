@@ -176,7 +176,6 @@ PRODUCT_PACKAGES += \
     libsymphony-cpu \
     libsymphonypower \
     libvidhance \
-    com.fingerprints.extension@1.0 \
     android.hardware.gatekeeper@1.0-impl-qti \
     fingerprint.fpc.sdm710 \
     fingerprint.goodix.sdm710 \
@@ -190,7 +189,6 @@ PRODUCT_PACKAGES += \
     libsnsdiaglog \
     libssc_default_listener \
     sensors.ssc \
-    vendor.goodix.hardware.fingerprintextension@1.0 \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     dirac_resource \
     libBeautyShot_skel \
