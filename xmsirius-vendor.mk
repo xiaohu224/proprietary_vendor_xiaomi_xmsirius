@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xmsirius/proprietary/vendor/etc/dsi_ss_ea8074_fhd_cmd_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dsi_ss_ea8074_fhd_cmd_display_mi.xml \
     vendor/xiaomi/xmsirius/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/xmsirius/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
-    vendor/xiaomi/xmsirius/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/xmsirius/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/xiaomi/xmsirius/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/xiaomi/xmsirius/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
@@ -179,15 +178,11 @@ PRODUCT_PACKAGES += \
     libvidhance \
     com.fingerprints.extension@1.0 \
     android.hardware.gatekeeper@1.0-impl-qti \
-    android.hardware.keymaster@3.0-impl-qti \
     fingerprint.fpc.sdm710 \
     fingerprint.goodix.sdm710 \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     libgf_ca \
     libgf_hal \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
     libqcbor \
     libsensorcal \
     libsns_device_mode_stub \
@@ -219,6 +214,5 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_skel \
     misound_res \
     android.hardware.gatekeeper@1.0-service-qti \
-    android.hardware.keymaster@3.0-service-qti \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     sensors.qti
